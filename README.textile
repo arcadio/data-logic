@@ -25,7 +25,7 @@ their semantics into executable Prolog code.
 
 h2. Git Repository
 
-* Knowledge Base/: this directory contains all the source code of the
+* @Knowledge Base/@: this directory contains all the source code of the
   project
 
 h2. Downloads

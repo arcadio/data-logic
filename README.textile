@@ -30,9 +30,9 @@ h2. Git Repository
 
 h2. Downloads
 
-* "Report":http://cloud.github.com/downloads/arcadio/data-logic/Report.pdf
-  : a 30 page long PDF document describing the problem and the
-  solution in detail
+* "Report":http://cloud.github.com/downloads/arcadio/data-logic/Report.pdf:
+  a 30 page long PDF document describing the problem and the solution in
+  detail
 
 h2. Requirements
 

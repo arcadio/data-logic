@@ -30,8 +30,10 @@ h2. Git Repository
 
 h2. Downloads
 
-* "Report":http://cloud.github.com/downloads/arcadio/data-logic/Report.pdf
-  : a
+* "Report":
+  http://cloud.github.com/downloads/arcadio/data-logic/Report.pdf
+  : a 30 page long PDF document describing the problem and the
+  solution in detail
 
 h2. Requirements
 
@@ -44,8 +46,8 @@ The code should be easily portable to other Prolog distributions as well.
 
 h2. License
 
-* Source code (repository): "GNU General Public
-  License":http://www.gnu.org/licenses/gpl.html
+* Source code (repository): "GNU General Public License":
+  http://www.gnu.org/licenses/gpl.html
 
-* Documents (downloads): "GNU Free Documentation
-  License":http://www.gnu.org/licenses/fdl.html
+* Documents (downloads): "GNU Free Documentation License":
+  http://www.gnu.org/licenses/fdl.html

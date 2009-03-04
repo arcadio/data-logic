@@ -1,0 +1,51 @@
+h1. Data Logic
+
+h2. Problem
+
+Given a small anatomy model that includes inheritance, parthood and ad
+hoc relations, the goal is to develop a Prolog system that
+incorporates the knowledge of the model. The system should provide
+deductive querying facilities and verification of model constraints
+expressed in a subset of natural language.
+
+h2. Solution
+
+The anatomy model is formalised correcting some errors. During the
+process, different inheritance uses (generalization and
+specialization) and parthood relations (part for, has part and part
+of) are identified.
+
+Furthermore, a domain specific language for encoding the model is
+developed taking advantage of the code-as-data nature of Prolog.
+
+Finally, the natural language subset for expressing model constraints
+is turned into a definite clause grammar (DCG). The constraints are
+attached meaning by stepwise refinement of the formal definition of
+their semantics into executable Prolog code.
+
+h2. Git Repository
+
+* Knowledge Base: this directory contains all the source code of the
+  project
+
+h2. Downloads
+
+* "Report":http://cloud.github.com/downloads/arcadio/data-logic/Report.pdf
+  : a
+
+h2. Requirements
+
+In order to run the knowledge base you only need a recent version of
+"SWI-Prolog":http://www.swi-prolog.org/ installed. Althought the
+project was developed using version 5.6, much older versions should
+work.
+
+The code should be easily portable to other Prolog distributions as well.
+
+h2. License
+
+* Source code (repository): "GNU General Public
+  License":http://www.gnu.org/licenses/gpl.html
+
+* Documents (downloads): "GNU Free Documentation
+  License":http://www.gnu.org/licenses/fdl.html

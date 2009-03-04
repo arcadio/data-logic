@@ -39,9 +39,11 @@ h2. Requirements
 In order to run the knowledge base you only need a recent version of
 "SWI-Prolog":http://www.swi-prolog.org/ installed. Althought the
 project was developed using version 5.6, much older versions should
-work.
+work as well.
 
-The code should be easily portable to other Prolog distributions as well.
+Additionally, the code should be easily portable to other Prolog
+distributions, as it largely complies with the ISO Prolog standard,
+although this fact has not been verified.
 
 h2. License
 

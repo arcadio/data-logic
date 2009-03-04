@@ -45,7 +45,7 @@ work as well.
 
 Additionally, the code should be easily portable to other Prolog
 distributions, as it largely complies with the ISO Prolog standard,
-although this fact has not been verified.
+although this fact has not been tested in practice.
 
 h2. License
 

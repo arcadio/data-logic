@@ -7,7 +7,9 @@ b(2).
 c(X, f(X)).
 
 
-
+%
+% Trivial meta-interpreter
+%
 solve1(A) :- A.
 
 

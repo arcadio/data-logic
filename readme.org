@@ -1,0 +1,13 @@
+An expert system to model and reason about anatomy
+knowledgebases. Provides deductive querying facilities and
+verification of model constraints expressed in a subset of natural
+language.
+
+* Dependencies
+
+The code adheres to ISO/IEC 13211-1, so it should run on any standard
+Prolog implementation. Developed and tested using [[https://swi-prolog.org][SWI-Prolog]].
+
+* License
+
+The source code is licensed under the [[https://www.gnu.org/licenses/gpl-3.0.html][GNU General Public License v3.0]].

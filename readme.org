@@ -7,7 +7,9 @@ Intelligence Programming/.
 * Dependencies
 
 The code adheres to ISO/IEC 13211-1, so it should run on any standard
-Prolog implementation. Developed and tested using [[https://swi-prolog.org][SWI-Prolog]].
+Prolog implementation.
+
+Developed and tested using [[https://swi-prolog.org][SWI-Prolog]].
 
 * License
 

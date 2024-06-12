@@ -1,4 +1,4 @@
-:- ensure_loaded('dsl.prolog').
+:- ensure_loaded('dsl.pl').
 :- style_check(-discontiguous).
 
 

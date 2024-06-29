@@ -1,5 +1,5 @@
 %
-% Grammar
+% DCG grammar
 %
 s(P) --> np(X,P1,P), vp(X,P1).
 
@@ -30,6 +30,6 @@ v(X,Y,related(R,X,Y),[R|W],W) :- related(R,_,_).
 constraint(C) :-
         phrase(s(P),C),
 	(P ->
-	 write('Constraint satisfied');
-	 write('Constraint not satisfied')),
+	 writeln('Constraint satisfied');
+	 writeln('Constraint not satisfied')),
         !.

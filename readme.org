@@ -13,11 +13,11 @@ Developed and tested using [[https://swi-prolog.org][SWI-Prolog]].
 
 * Usage
 
-1. Load ~kb.pl~, a knowledge base example describing pancreatic
-   anatomy.
+1. Evaluate ~[kb].~ to load a knowledge base example describing a
+   pancreatic anatomy model.
 
-2. Load ~constraints.pl~, model constraints expressed in natural
-   language.
+2. Evaluate ~[constraints].~ to verify a set of model constraints
+   expressed in natural language.
 
 * License
 

@@ -16,8 +16,8 @@ Developed and tested using [[https://swi-prolog.org][SWI-Prolog]].
 1. Evaluate ~[kb].~ to load a knowledge base example describing a
    pancreatic anatomy model.
 
-2. Evaluate ~[constraints].~ to verify a set of model constraints
-   expressed in natural language.
+2. Evaluate ~[spec].~ to verify a set of model constraints expressed
+   in natural language.
 
 * License
 

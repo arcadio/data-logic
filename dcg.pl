@@ -1,4 +1,8 @@
 %
+% Definite-clause grammar (DCG) prototype.
+%
+
+%
 % Rules
 %
 s --> np, vp.

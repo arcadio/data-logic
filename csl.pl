@@ -1,4 +1,9 @@
 %
+% Constraint-specification language, defined using a definite-clause
+% grammar (DCG).
+%
+
+%
 % DCG grammar
 %
 s(P) --> np(X,P1,P), vp(X,P1).

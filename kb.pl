@@ -2,9 +2,8 @@
 % An example knowledge base of pancreatic anatomy. Defines taxonomy,
 % partonomy and ad-hoc relations.
 %
-
 :- ensure_loaded('dsl.pl').
-:- ensure_loaded('constraint_language.pl').
+:- ensure_loaded('csl.pl').
 :- style_check(-discontiguous).
 
 

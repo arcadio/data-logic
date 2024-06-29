@@ -1,8 +1,12 @@
-:- ensure_loaded('constraint_language.pl').
+%
+% Example model specification using constraints defined in a subset of
+% natural language.
+%
+:- ensure_loaded('csl.pl').
 
 
 %
-% General Constraints
+% General constraints
 %
 :- constraint([every, exocrine_cell, secretes, a, enzyme]).
 :- constraint([every, endocrine_cell, secretes, a, hormone]).
@@ -10,7 +14,7 @@
 
 
 %
-% Model-specific Constraints
+% Model-specific constraints
 %
 :- constraint([every, cell, which, part_for, pancreas, secretes, a, substance]).
 :- constraint([pancreas, secretes, every, substance]).

@@ -1,4 +1,8 @@
 %
+% Alternative constraint-specification language definition.
+%
+
+%
 % Logical operators
 %
 :- op(900,xfx,=>).

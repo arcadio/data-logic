@@ -1,4 +1,9 @@
 %
+% A meta DSL, or a DSL for DSLs. Ensures knowledge integrity by
+% verifying relation correctness.
+%
+
+%
 % Relation alias facility
 %
 term_expansion(relation_alias(R,A),E) :-

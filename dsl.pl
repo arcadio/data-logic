@@ -1,3 +1,7 @@
+%
+% A domain-specific language (DSL) defining taxonomy and partonomy
+% operators and rules.
+%
 :- ensure_loaded('meta_dsl.pl').
 :- style_check(-discontiguous).
 

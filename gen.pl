@@ -1,5 +1,6 @@
 %
-% Alternative constraint-specification language definition.
+% Alternative constraint-specification language, based on a
+% Montague-like symbolic representation.
 %
 
 %
@@ -11,7 +12,7 @@
 
 
 %
-% Grammar
+% DCG grammar
 %
 s(P) --> np(X,P1,P), vp(X,P1).
 

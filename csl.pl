@@ -1,6 +1,6 @@
 %
-% Constraint-specification language, specified with a definite-clause
-% grammar (DCG).
+% Constraint-specification language, based on an operational
+% semantics.
 %
 
 %

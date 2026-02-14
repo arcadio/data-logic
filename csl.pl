@@ -1,5 +1,5 @@
 %
-% Constraint-specification language, defined using a definite-clause
+% Constraint-specification language, specified with a definite-clause
 % grammar (DCG).
 %
 

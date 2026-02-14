@@ -1,8 +1,8 @@
 An expert system to build, formalize, and reason about knowledge
-bases. Provides domain-specific languages, deductive querying
+bases. Provides domain-specific languages (DSLs), deductive querying
 facilities, and verification of model constraints expressed in a
-subset of natural language. Inspired by many ideas described in /The
-Art of Prolog/ and /Paradigms of Artificial Intelligence Programming/.
+natural language subset. Inspired by many ideas from /The Art of
+Prolog/ and /Paradigms of Artificial Intelligence Programming/.
 
 * Dependencies
 
@@ -13,11 +13,35 @@ Developed and tested using [[https://swi-prolog.org][SWI-Prolog]].
 
 * Usage
 
+Within a Prolog REPL:
+
 1. Evaluate ~[kb].~ to load a knowledge base example describing a
    pancreatic anatomy model.
 
 2. Evaluate ~[spec].~ to verify a set of model constraints expressed
    in natural language.
+
+* Design
+
+- Meta DSL layer :: ~mdsl.pl~ acts as a semantic foundation of the
+  system, ensuring that any knowledge defined in higher layers follows
+  strict correctness rules. It uses term expansion to intercept and
+  validate operator definitions.
+
+- DSL layer :: ~dsl.pl~ defines taxonomy and partonomy operators and
+  rules, as well as recursive logic to calculate transitive
+  properties, such as inheritance in the taxonomy or nested structural
+  components in the partonomy.
+
+- Constraint specification language :: ~csl.pl~ allows for the
+  formalization and verification of model constraints using a subset
+  of natural language, handling universal and existential quantifiers
+  by mapping them to logical goals.
+
+- Knowledge base and specification :: ~kb.pl~ and ~spec.pl~ provide an
+  example use case, defining the anatomy of the pancreas and a suite
+  of model-specific constraints validating adherence to common
+  physiological rules.
 
 * License
 

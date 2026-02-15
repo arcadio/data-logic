@@ -13,7 +13,7 @@ Developed and tested using [[https://swi-prolog.org][SWI-Prolog]].
 
 * Usage
 
-Within a Prolog REPL:
+Within a Prolog REPL, inside the ~src~ directory:
 
 1. Evaluate ~[kb].~ to load a knowledge base example describing a
    pancreatic anatomy model.
